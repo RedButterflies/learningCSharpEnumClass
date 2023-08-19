@@ -68,18 +68,18 @@ class Program
 
         }
 
-        Console.WriteLine(Months.January + "is the "+(int)Months.January + "st month of the year");
-        Console.WriteLine(Months.February + "is the "+(int)Months.February + "nd month of the year");
-        Console.WriteLine(Months.March + "is the "+(int)Months.March + "rd month of the year");
-        Console.WriteLine(Months.April + "is the "+(int)Months.April + "th month of the year");
-        Console.WriteLine(Months.May + "is the "+(int)Months.May + "th month of the year");
-        Console.WriteLine(Months.June + "is the "+(int)Months.June + "th month of the year");
-        Console.WriteLine(Months.July + "is the "+(int)Months.July + "th month of the year");
-        Console.WriteLine(Months.August + "is the "+(int)Months.August + "th month of the year");
-        Console.WriteLine(Months.September + "is the "+(int)Months.September + "th month of the year");
-        Console.WriteLine(Months.October + "is the "+(int)Months.October + "th month of the year");
-        Console.WriteLine(Months.November + "is the "+(int)Months.November + "th month of the year");
-        Console.WriteLine(Months.December + "is the "+(int)Months.December + "th month of the year");
+        Console.WriteLine("\n"+Months.January + " is the "+Convert.ToInt16((int)Months.January+1) + "st month of the year");
+        Console.WriteLine(Months.February + " is the "+Convert.ToInt16((int)Months.February+1) + "nd month of the year");
+        Console.WriteLine(Months.March + " is the "+Convert.ToInt16((int)Months.March+1) + "rd month of the year");
+        Console.WriteLine(Months.April + " is the "+Convert.ToInt16((int)Months.April+1) + "th month of the year");
+        Console.WriteLine(Months.May + " is the "+Convert.ToInt16((int)Months.May+1) + "th month of the year");
+        Console.WriteLine(Months.June + " is the "+Convert.ToInt16((int)Months.June+1) + "th month of the year");
+        Console.WriteLine(Months.July + " is the "+Convert.ToInt16((int)Months.July+1) + "th month of the year");
+        Console.WriteLine(Months.August + " is the "+Convert.ToInt16((int)Months.August+1) + "th month of the year");
+        Console.WriteLine(Months.September + " is the "+Convert.ToInt16((int)Months.September+1) + "th month of the year");
+        Console.WriteLine(Months.October + " is the "+Convert.ToInt16((int)Months.October+1) + "th month of the year");
+        Console.WriteLine(Months.November + " is the "+Convert.ToInt16((int)Months.November+1) + "th month of the year");
+        Console.WriteLine(Months.December + " is the "+Convert.ToInt16((int)Months.December+1) + "th month of the year");
         
     }
 }
