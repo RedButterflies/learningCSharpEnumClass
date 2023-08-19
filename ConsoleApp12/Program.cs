@@ -37,7 +37,36 @@ class Program
         Console.WriteLine(DaysOfTheWeek.Thursday+" is the: " +Convert.ToInt16( (int)DaysOfTheWeek.Thursday+1) + "th day of the week ");
         Console.WriteLine(DaysOfTheWeek.Friday+" is the: " +Convert.ToInt16( (int)DaysOfTheWeek.Friday+1) + "th day of the week ");
         Console.WriteLine(DaysOfTheWeek.Saturday+" is the: " +Convert.ToInt16( (int)DaysOfTheWeek.Saturday+1) + "th day of the week ");
-        Console.WriteLine(DaysOfTheWeek.Sunday+" is the: " +Convert.ToInt16( (int)DaysOfTheWeek.Sunday+1) + "th day of the week ");
+        Console.WriteLine(DaysOfTheWeek.Sunday+" is the: " +Convert.ToInt16( (int)DaysOfTheWeek.Sunday+1) + "th day of the week \n");
+
+
+
+        DaysOfTheWeek day = DaysOfTheWeek.Tuesday;
+        switch (day)
+        {
+            case DaysOfTheWeek.Monday:
+                Console.WriteLine("It's Monday");
+                break;
+            case DaysOfTheWeek.Tuesday:
+                Console.WriteLine("It's Tuesday");
+                break;
+            case DaysOfTheWeek.Wednesday:
+                Console.WriteLine("It's Wednesday");
+                break;
+            case DaysOfTheWeek.Thursday:
+                Console.WriteLine("It's Thursday");
+                break;
+            case DaysOfTheWeek.Friday:
+                Console.WriteLine("It's Friday");
+                break;
+            case DaysOfTheWeek.Saturday:
+                Console.WriteLine("It's Saturday");
+                break;
+            case DaysOfTheWeek.Sunday:
+                Console.WriteLine("It's Sunday");
+                break;
+
+        }
         
         
     }
