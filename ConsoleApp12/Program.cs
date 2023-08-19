@@ -79,7 +79,47 @@ class Program
         Console.WriteLine(Months.September + " is the "+Convert.ToInt16((int)Months.September+1) + "th month of the year");
         Console.WriteLine(Months.October + " is the "+Convert.ToInt16((int)Months.October+1) + "th month of the year");
         Console.WriteLine(Months.November + " is the "+Convert.ToInt16((int)Months.November+1) + "th month of the year");
-        Console.WriteLine(Months.December + " is the "+Convert.ToInt16((int)Months.December+1) + "th month of the year");
-        
+        Console.WriteLine(Months.December + " is the "+Convert.ToInt16((int)Months.December+1) + "th month of the year\n");
+
+        Months month = Months.March;
+        switch (month)
+        {
+            case Months.January:
+                Console.WriteLine("It's January");
+                break;
+            case Months.February:
+                Console.WriteLine("It's February");
+                break;
+            case Months.March:
+                Console.WriteLine("It's March");
+                break;
+            case Months.April:
+                Console.WriteLine("It's April");
+                break;
+            case Months.May:
+                Console.WriteLine("It's May");
+                break;
+            case Months.June:
+                Console.WriteLine("It's June");
+                break;
+            case Months.July:
+                Console.WriteLine("It's July");
+                break;
+            case Months.August:
+                Console.WriteLine("It's August");
+                break;
+            case Months.September:
+                Console.WriteLine("It's September");
+                break;
+            case Months.October:
+                Console.WriteLine("It's October");
+                break;
+            case Months.November:
+                Console.WriteLine("It's November");
+                break;
+            case Months.December:
+                Console.WriteLine("It's December");
+                break;
+        }
     }
 }
